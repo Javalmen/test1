@@ -59,6 +59,9 @@ public class Cat {
         if (50 / weight > .01)
             pee();
     }
+    public void sleep() {
+        weight += 20;
+    }
 }
 
 
